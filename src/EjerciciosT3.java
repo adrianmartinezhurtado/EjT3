@@ -17,6 +17,7 @@ public class EjerciciosT3 {
         } else {
             System.out.println("El número es negativo");
         }
+        lectorTeclado.close();
     }
 
     public void Ejercicio3(){
@@ -31,6 +32,7 @@ public class EjerciciosT3 {
         } else {
             System.out.println("!Enhorabuena¡ Has aprobado");
         }
+        lectorTeclado.close();
     }
 
     public void Ejercicio4 (){
@@ -49,5 +51,25 @@ public class EjerciciosT3 {
         } else {
             System.out.println("No superas los 100€, no tienes descuento");
         }
+        lectorTeclado.close();
+    }
+
+    public void Ejercicio6(){
+        //Escribe un programa que pida la edad del usuario y determine
+        // si puede acceder a contenido para mayore de 16 años.
+        // Si tiene 16 o más años, muestra "Acceso permitido", si no, muestra "Acceso denegado".
+        Scanner lectorTeclado = new Scanner(System.in);
+        System.out.println("Introduce tu edad:");
+        int edad = lectorTeclado.nextInt();
+        if (edad >= 16){
+            System.out.println("Acceso permitido");
+        } else if (edad<=15) {
+            System.out.println("Acceso denegado. Debes tener al menos 16 años.");
+        }
+        lectorTeclado.close();
+    }
+
+    public void Ejercicio7(){
+        
     }
 }
