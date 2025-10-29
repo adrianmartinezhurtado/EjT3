@@ -31,5 +31,11 @@ public class EjerciciosT3 {
         } else {
             System.out.println("!Enhorabuena¡ Has aprobado");
         }
-        }
+    }
+
+    public void Ejercicio4 (){
+        //Crea un programa que pida el importe de una compra. Si el importe es mayor o igual a 100€,
+        // aplica un descuento del 10%. Muestra el importe original y el importe final a pagar.
+        Scanner lectorTeclado = new Scanner(System.in)
+    }
 }
