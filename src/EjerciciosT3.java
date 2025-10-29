@@ -36,6 +36,18 @@ public class EjerciciosT3 {
     public void Ejercicio4 (){
         //Crea un programa que pida el importe de una compra. Si el importe es mayor o igual a 100€,
         // aplica un descuento del 10%. Muestra el importe original y el importe final a pagar.
-        Scanner lectorTeclado = new Scanner(System.in)
+        Scanner lectorTeclado = new Scanner(System.in);
+        System.out.println("Indica el importe de tu compra:");
+        double importe = lectorTeclado.nextDouble();
+        //descuento
+        if (importe >= 100){
+            double descuento = importe *0.1;
+            double descuentoFinal = importe - descuento;
+            System.out.println("Importe original:"+importe+"€");
+            System.out.println("Descuento aplicado:"+descuento+"€");
+            System.out.println("Importe final:"+descuentoFinal+"€");
+        } else {
+            System.out.println("No superas los 100€, no tienes descuento");
+        }
     }
 }

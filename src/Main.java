@@ -5,7 +5,8 @@ public class Main {
 
         EjerciciosT3 variableEjercicios = new EjerciciosT3();
         //variableEjercicios.Ejercicio2();
-        variableEjercicios.Ejercicio3();
+        //variableEjercicios.Ejercicio3();
+        variableEjercicios.Ejercicio4();
 
     }
 }
